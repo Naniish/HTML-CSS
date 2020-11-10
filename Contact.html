@@ -15,46 +15,51 @@
   <body>
 	
 	<form action="Personal_informations" method="post">
+	
+		<label <p class="form">Personal informations</p></label>
+		
 		<div>
-			<label for="name">Mr :</label>
-			<input type="radio" id="mr" name="Mr">
-			<label for="name">Mme :</label>
-			<input type="radio" id="mme" name="Mme">
-			<label for="name">Mlle :</label>
-			<input type="radio" id="mlle" name="Mlle">
+			<label for="name"> Male</label>
+			<input type="radio" id="male" name="Male">
+			<label for="name">Female </label>
+			<input type="radio" id="female" name="Female">
 		</div>
 		<div>
-			<label for="name">Prenom :</label>
+			<label for="name"><p class="name">Prenom</p> </label>
 			<input type="text" id="prenom" name="Prenom">
 		</div>
 		<div>
-			<label for="name">Nom :</label>
+			<label for="name"><p class="name">Nom</p> </label>
 			<input type="text" id="name" name="nom">
 		</div>
 		<div>
-			<label for="mail">e-mail :</label>
-			<input type="email" id="mail" name="user_mail">
+			<label for="mail"><p class="name">eMail</p></label>
+			<input type="mail" id="mail" name="mail">
 		</div>
 		<div>
-			<label for="telephone">telephone :</label>
+			<label for="telephone"><p class="name">telephone</p> </label>
 			<input type="numero" id="mail" name="telephone">
 		</div>
 	</form>
 	
-	<form
+	<form>
 	
-		<label for="object">Choose a object:</label>
+		<label <p class="form">Message</p></label>
+		
+		<label for="object"><p class="name">Subject</p></label>
 		<select name="object" id="object" form="object">
 			<option value="Work proposal">Work proposal</option>
 			<option value="Just saying hello">Just saying hello</option>
 			<option value="Rendez-vous">Rendez-vous</option>
 		</select>
 		
-		<label for="date">date:</label>
-		<input type="date" id="date" name="date"
+		<div>
+			<label for="date"><p class="name">Current Date</p></label>
+			<input type="date" id="date" name="date"
+		</div>
 		
 		<div>
-			<label for="Content">Content :</label>
+			<label for="Content"><p class="name">Content</p> </label>
 			<input type="text" id="Content" name="Content">
 		</div>
 		
